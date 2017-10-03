@@ -3,4 +3,5 @@
     <string name = "action_configuracion" > Configuración </string >
     <string name = "action_buscar" > Buscar </string >
     <string name = "action_nuevo" > Nuevo </string >
+    <string name = "action_salir" > Salir </string >
 </resources>

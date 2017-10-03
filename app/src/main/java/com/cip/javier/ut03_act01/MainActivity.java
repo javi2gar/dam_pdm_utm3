@@ -57,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
                 mensaje = "Elemento configurar seleccionado" ;
                 Toast.makeText( this , mensaje, Toast.LENGTH_LONG).show();
                 return true ;
+            case R.id.action_salir:
+                mensaje = "Elemento salir seleccionado" ;
+                Toast.makeText( this , mensaje, Toast.LENGTH_LONG).show();
+                finish();
+                return true ;
         }
         return super .onOptionsItemSelected(item);
     }

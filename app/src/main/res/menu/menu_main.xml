@@ -16,4 +16,9 @@
         android:icon = "@android:drawable/ic_menu_add"
         android:orderInCategory = "100"
         app:showAsAction = "ifRoom" />
+    <item android:id = "@+id/action_salir"
+        android:title = "@string/action_salir"
+        android:icon = "@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory = "100"
+        app:showAsAction = "always" />
 </menu>
